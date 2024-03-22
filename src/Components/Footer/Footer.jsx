@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="media">
         <a href="https://www.facebook.com/Mufasa.Boutique" target="_blank"><i className="fa-brands fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/mufasa.bc/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
-        <a href="wa.link/ro1jgs" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
+        <a href="https://wa.link/9jnrd3" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
       </div>
     </div>
   );
