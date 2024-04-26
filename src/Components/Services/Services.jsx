@@ -3,11 +3,12 @@ import './Services.css'
 import social_media from '../../assets/social-media.png'
 import creacion_contenido from '../../assets/creacion-contenido.png'
 import desarrollo_web from '../../assets/desarrollo-web.png'
+import services_integrated from '../../assets/services-integrated.jpeg'
 import program_icon_1 from '../../assets/program-icon-1.png'
 import program_icon_2 from '../../assets/program-icon-2.png'
 import program_icon_3 from '../../assets/program-icon-3.png'
 
-const Services = ({setPopupState1, setPopupState2, setPopupState3}) => {
+const Services = ({setPopupState1, setPopupState2, setPopupState3, setPopupState4}) => {
   return (
     <div className='services'>
         <div className="service" onClick={()=> {setPopupState1(true)}}>
@@ -29,6 +30,13 @@ const Services = ({setPopupState1, setPopupState2, setPopupState3}) => {
             <div className="caption">
                 <img src={program_icon_3} alt="" />
                 <p>Desarrollod Web</p>
+            </div>
+        </div>
+        <div className="service" onClick={()=> {setPopupState4(true)}}>
+            <img src={services_integrated} alt="" />
+            <div className="caption">
+                <img src={program_icon_3} alt="" />
+                <p>Servicios Integrales</p>
             </div>
         </div>
     </div>

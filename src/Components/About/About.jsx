@@ -12,10 +12,10 @@ const About = ({setPlayState}) => {
         </div>
         <div className="about-right">
             <h3>ACERCA DE MUFASA</h3>
-            <h2>Boutique Creativa</h2>
-            <p>Mufasa nace gracias a la necesidad de muchos clientes que fueron confiando en sus fundadores cuando trabajan de manera independiente, esto hizo crecer la confianza mutua y que se consolide una <strong>#BoutiqueCreativa.</strong></p>
-            <p>Los principales servicios que se ofrecen están enfocados en el desarrollo web, manejo de marca, indentidad y creación de campańas creativas, dando como resultado una excelente combinación de tecnología y markting digital.</p>
-            <p>Sabíamos que no bastaba con solo tener los servicios de Social Media, es por eso que incursionamos en la creación de contenido gracias al apalcamiento de nuestras dos modelos creadas 100% con <strong>#IA</strong>, ofreciendo no solo contenido sino la visibilidad que las marcas necesitan.</p>
+            <h2>Servicios Integrales</h2>
+            <p>Mufasa nace gracias a la necesidad de muchos clientes que fueron confiando en sus fundadores cuando trabajan de manera independiente, esto hizo crecer la confianza mutua y que se consolide una <strong>#BoutiqueIntegral.</strong></p>
+            <p>Los principales servicios que se ofrecen están enfocados en el desarrollo web, manejo de marca, indentidad, creación de campańas creativas y servicios integrales dando como resultado una excelente sinergia entre ambos lados.</p>
+            <p>Sabíamos que no bastaba con solo tener los servicios clásicos de siempre, es por eso que incursionamos en la creación de contenido gracias al apalcamiento de nuestras dos modelos creadas 100% con <strong>#IA</strong>, ofreciendo no solo contenido sino la visibilidad que las marcas necesitan.</p>
         </div>
     </div>
   )

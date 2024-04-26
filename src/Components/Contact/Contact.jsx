@@ -12,8 +12,8 @@ const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
-    const formData = new FormData(event.target);
 
+    const formData = new FormData(event.target);
     formData.append("access_key", "c8ffd7ca-17f2-4810-b814-fde791ac6a40");
 
     const response = await fetch("https://api.web3forms.com/submit", {
@@ -48,7 +48,7 @@ const Contact = () => {
           </li>
           <li>
             <img src={phone_icon} alt="" />
-            +1 801 441 8679
+            +51 951 146 027
           </li>
           <li>
             <img src={location_icon} alt="" />
